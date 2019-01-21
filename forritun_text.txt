@@ -1,0 +1,11 @@
+1. Game loop eða leikjar lykkjan er hjarta leik kóðans.
+venjulegur kóði er keyrður einusinni og svo hættir, leikjar lykkjan er endalaus og er þar sem allur leikja kóðinn er geymdur.
+Lykkjan leyfir leiknum að halda áfram hugsanlega endalaust. Í lykkjuni er leikurinn Reiknaður og teiknaður aftur og aftur.
+
+2. Leikjavélin er það sem keyrir kóðann afstað í leik. Öðruvísi leikjavélar nota öðruvísi tungumál.
+Unreal Engine notar c++ meðan Unity notar C# & JavaScript. 
+Unity er byggt meira fyrir casual leiki eins og platformera og sjallsíma leiki meðan Unreal er meira fyrir stóra tölvuleiki t.d Witcher 3.
+
+3.Collision detection getur verið erfiður. Þú ert að stanslaust kanna hvar objectar eru og hvort þeir eru að snertast.
+Oftast er object brotinn niður í einfaldari form til þess að minka processing kostnað. 
+t.d Player model er brotið niður í nokkra kassa fyrir hendurnar, fæturnar, búkinn og hausinn.
