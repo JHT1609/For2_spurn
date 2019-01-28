@@ -1,11 +1,31 @@
-1. Game loop e�a leikjar lykkjan er hjarta leik k��ans.
-venjulegur k��i er keyr�ur einusinni og svo h�ttir, leikjar lykkjan er endalaus og er �ar sem allur leikja k��inn er geymdur.
-Lykkjan leyfir leiknum a� halda �fram hugsanlega endalaust. � lykkjuni er leikurinn Reikna�ur og teikna�ur aftur og aftur.
+1. Game loop eða leikjar lykkjan er hjarta leik kóðans.
+venjulegur kóði er keyrður einusinni og svo hættir, leikjar lykkjan er endalaus og er þar sem allur leikja kóðinn er geymdur.
+Lykkjan leyfir leiknum að halda áfram hugsanlega endalaust. Í lykkjuni er leikurinn Reiknaður og teiknaður aftur og aftur.
 
-2. Leikjav�lin er �a� sem keyrir k��ann afsta� � leik. ��ruv�si leikjav�lar nota ��ruv�si tungum�l.
-Unreal Engine notar c++ me�an Unity notar C# & JavaScript. 
-Unity er byggt meira fyrir casual leiki eins og platformera og sjalls�ma leiki me�an Unreal er meira fyrir st�ra t�lvuleiki t.d Witcher 3.
+2. Leikjavélin er það sem keyrir kóðann afstað í leik. Öðruvísi leikjavélar nota öðruvísi tungumál.
+Unreal Engine notar c++ meðan Unity notar C# & JavaScript. 
+Unity er byggt meira fyrir casual leiki eins og platformera og sjallsíma leiki meðan Unreal er meira fyrir stóra tölvuleiki t.d Witcher 3.
 
-3.Collision detection getur veri� erfi�ur. �� ert a� stanslaust kanna hvar objectar eru og hvort �eir eru a� snertast.
-Oftast er object brotinn ni�ur � einfaldari form til �ess a� minka processing kostna�. 
-t.d Player model er broti� ni�ur � nokkra kassa fyrir hendurnar, f�turnar, b�kinn og hausinn.
+3.Collision detection getur verið erfiður. Þú ert að stanslaust kanna hvar objectar eru og hvort þeir eru að snertast.
+Oftast er object brotinn niður í einfaldari form til þess að minka processing kostnað. 
+t.d Player model er brotið niður í nokkra kassa fyrir hendurnar, fæturnar, búkinn og hausinn.
+
+4.Assets eru hlutir sem geta verið notaðir í leik þinn. t.d model eða audio file.
+
+5.game objects eru fundamental asset eins og ljós eða props.
+
+6.Prefab er samblanda objecta. það er gott til þess að muna eftir hlutum eins og scenery borðsins.
+
+7.Þríhyrningurinn er góður building block fyrir models. Mesh sýnir þessa þríhyrninga. Þessir Þríhyrningar eru hvernig tölvan teiknar model.
+
+8.Tags eru leið til að grúppa object með einhverju sameiginlegt t.d. Enemies tag. Layers eru leið fyrir object til að vita hvað og hvernig á að rendera object
+
+9.
+#1 Scene view er gluggin þar sem þú getur lítt um borðið í leiknum þínum
+#2 Game view er gluggin þar sem þú getur play-testað leikin.
+#3 Project gluggin opnar folder á tölfu þinni og gerir það auðveldara að drag og droppa asset frá projects yfir í Hierarchy.
+#4 Hierachy er gluggin sem sýnir assetin inn í verkefni þínu.
+#5 Inspector lefyir þér að breyta propertíum objecta t.d adda scriptur eins og rigidbody.
+
+
+
